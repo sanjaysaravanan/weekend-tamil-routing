@@ -40,6 +40,7 @@ const Product = (props) => {
         textAlign: "center",
       }}
     >
+      {/* {console.log(pathParams)} */}
       <img
         style={{ width: 210, height: 300, objectFit: "contain" }}
         src={prodData.image}

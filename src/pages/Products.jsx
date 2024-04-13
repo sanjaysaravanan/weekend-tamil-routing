@@ -32,6 +32,7 @@ const Products = () => {
       <h1>Products Page</h1>
       <Link to="/">Home</Link>
       <br />
+      {console.log("query params", queryParams)}
       {["electronics", "jewelery", "men's clothing", "women's clothing"].map(
         (val) => (
           <Link to={`/products?category=${val}`} key={val} reloadDocument>
